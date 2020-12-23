@@ -29,3 +29,18 @@ img:hover{
 .container{
     margin-top: 5%;
 }
+
+body{
+    background-image: url('../public/media/everest.jpg');
+    background-size: cover;
+}
+
+.card{
+    width: 700px; 
+    align-self: center;
+    margin: 0 auto;
+    float: none;
+    background-color: whitesmoke;
+    border-color: black;
+    margin-top: 20px;
+}
