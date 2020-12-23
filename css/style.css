@@ -1,0 +1,12 @@
+#github{
+    color: black;
+}
+
+#github:hover{
+    background-color: black;
+    color: white;
+}
+
+img:hover{
+    background: url("/public/media/github2.png") no-repeat;
+}
