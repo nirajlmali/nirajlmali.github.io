@@ -41,19 +41,15 @@ body{
 }
 
 .card{
-    width: 700px; 
     align-self: center;
     margin: 0 auto;
     float: none;
     background-color: #19232b;
     border-color: black;
-    margin-top: 20px;
 }
 
 #ghcalendar{
-    padding-top: 1px;
     padding-bottom: 20px;
-    margin-top: 0px;
     background-color: #19232b   ;
 }
 
