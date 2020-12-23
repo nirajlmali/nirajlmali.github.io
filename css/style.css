@@ -10,3 +10,22 @@
 img:hover{
     background: url("/public/media/github2.png") no-repeat;
 }
+
+#ln{
+    width: 36px;
+    height: auto;
+}
+
+#gm{
+    width: 30px;
+    height: auto;
+}
+
+.col{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container{
+    margin-top: 5%;
+}

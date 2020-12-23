@@ -14,23 +14,40 @@
     <!--JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <title>Hello, world!</title>
+    <title>Niraj Mali</title>
   </head>
   <body>
-    <div>
-        <button id="github" type="button" class="btn btn-outline-dark" ><img src="public/media/github.png" id="gh"> GitHub</button>
-        <script>
-            $('#github').hover(
-                function (){
-                    let elm = document.getElementById("gh") 
-                    elm.setAttribute('src', 'public/media/github2.png');
-                },
-                function (){
-                    let elm = document.getElementById("gh");
-                    elm.setAttribute('src', 'public/media/github.png');
-                }
-            );
-        </script>
+    <div class="container">
+        <div class="row">
+            <div class="col" >
+                <h3 id="nameHeader">Niraj Mali</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col">
+                <a href="https://github.com/nirajlmali" id="github" type="button" class="btn btn-outline-dark" ><img src="public/media/github.png" id="gh"> GitHub</a>
+                <script>
+                    $('#github').hover(
+                        function (){
+                            let elm = document.getElementById("gh") 
+                            elm.setAttribute('src', 'public/media/github2.png');
+                        },
+                        function (){
+                            let elm = document.getElementById("gh");
+                            elm.setAttribute('src', 'public/media/github.png');
+                        }
+                    );
+                </script>
+            </div>
+            <div class="col">
+                <a href="https://linkedin.com/in/niraj-mali" id="linkedin" type="button" class="btn btn-outline-dark" ><img src="public/media/linkedin.png" id="ln"> LinkedIn</a>
+            </div>
+            <div class="col">
+                <a href="mailto: nirajlmali@gmail.com" id="gmail" type="button" class="btn btn-outline-dark" ><img src="public/media/gmail.png" id="gm"> Contact</a>
+            </div>
+            <div class="col-3"></div>
+        </div>
     </div>
 
 
