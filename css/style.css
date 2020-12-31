@@ -1,5 +1,6 @@
 #nameHeader{
-    font-family: Helvetica;
+    font-family: Staatliches;
+    font-size: 3cm;
     color: azure;
 }
 
@@ -50,6 +51,7 @@ body{
 }
 
 #ghcalendar{
+    padding-top: 0px;
     padding-bottom: 20px;
     background-color: #19232b   ;
 }
