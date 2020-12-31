@@ -38,6 +38,8 @@ img:hover{
 body{
     background-image: url('../public/media/everest.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .card{
@@ -45,7 +47,6 @@ body{
     margin: 0 auto;
     float: none;
     background-color: #19232b;
-    border-color: black;
 }
 
 #ghcalendar{
@@ -58,4 +59,67 @@ body{
     height: auto;
     align-self: center;
     border: none;
+}
+
+#projects{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background-color: white;
+}
+
+
+/* CSS Format for porjects by Alex Weininger */
+div.content-block {
+    min-height: fit-content;
+}
+
+
+.content-block.half {
+    max-height: 5vh;
+    min-height: 0;
+}
+
+.well h3 a {
+    background: #333;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-family: Source Code Pro, monospace;
+    font-size: 2vw;
+    font-weight: 500;
+    padding: 6px 10px;
+    text-align: left;
+    text-decoration: none;
+    user-select: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-property: background-color, box-shadow;
+    transition-duration: 0.7s;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.well-text {
+    text-align: left;
+}
+
+.well-text p, .well-text ul, .well-text  li {
+    margin: 2vh 0px 2vh 5px;
+}
+
+.well-text code {
+    font-family: "Source Code Pro", monospace;
+    font-size: 1rem;
+    background: #eff2f7;
+    border-radius: 3px;
+    padding: 3px 5px;
+    line-height: 20px;
+    color: #333;
+}
+
+.row {
+    padding: 10px
 }
