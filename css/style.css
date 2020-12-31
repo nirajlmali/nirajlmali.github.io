@@ -76,6 +76,12 @@ div.content-block {
 }
 
 
+.big-heading {
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+}
+
 .content-block.half {
     max-height: 5vh;
     min-height: 0;
