@@ -65,8 +65,24 @@ body{
 
 #projects{
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     background-color: white;
+}
+
+#jobs{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-bottom: 50px;
+    background-color: #292826;
+}
+
+li{
+    font-size: 20px;
+    color: white;
+}
+
+#job-section{
+    margin-left: 50px;
 }
 
 
